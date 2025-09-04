@@ -23,3 +23,10 @@ function toCamelCase(str){
 }
 
 console.log (toCamelCase("The_Stealth-Warrior"))
+
+
+// BEST SOLUTION ====>
+
+// function toCamelCase(str){
+//   return str.replace(/[_-]\w/gi, ch => ch[1].toUpperCase());
+// }
