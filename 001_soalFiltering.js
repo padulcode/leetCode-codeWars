@@ -17,3 +17,18 @@ function filter_list(l) {
   }
 
   console.log (filter_list([1,2,'a','b']))
+
+
+// BEST SOLUTION :
+
+// function filter_list(l) {
+//     return l.filter(v => typeof v == "number")
+//    }
+
+// OR ===>
+
+// function filter_list(l) {
+//   return l.filter(e => Number.isInteger(e));
+// }
+
+  
